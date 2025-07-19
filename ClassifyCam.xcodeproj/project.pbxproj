@@ -10,9 +10,22 @@
 		197625972CC64A1900B64370 /* ClassifyCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassifyCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		19383AFD2CC687DB0030844A /* Exceptions for "ClassifyCam" folder in "ClassifyCam" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 197625962CC64A1900B64370 /* ClassifyCam */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		197625992CC64A1900B64370 /* ClassifyCam */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				19383AFD2CC687DB0030844A /* Exceptions for "ClassifyCam" folder in "ClassifyCam" target */,
+			);
 			path = ClassifyCam;
 			sourceTree = "<group>";
 		};
@@ -250,21 +263,30 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"ClassifyCam/Preview Content\"";
 				DEVELOPMENT_TEAM = 6V4G4HY8UN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClassifyCam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClassifyCam;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ClassifyCam needs access to your camera to capture photos and videos for identification and tagging purposes, allowing you to document and classify objects in real-time.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ClassifyCam uses your location to tag the location where photos and videos are taken, helping you keep an organized record of your observations by location.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ClassifyCam need access to your microphone to record audio for Live Photos and videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ClassifyCam needs access to your photo library to save photos and videos you capture and to allow you to view and manage your saved media directly in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.curvsort.ClassifyCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -279,21 +301,30 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"ClassifyCam/Preview Content\"";
 				DEVELOPMENT_TEAM = 6V4G4HY8UN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClassifyCam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClassifyCam;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ClassifyCam needs access to your camera to capture photos and videos for identification and tagging purposes, allowing you to document and classify objects in real-time.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ClassifyCam uses your location to tag the location where photos and videos are taken, helping you keep an organized record of your observations by location.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ClassifyCam need access to your microphone to record audio for Live Photos and videos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ClassifyCam needs access to your photo library to save photos and videos you capture and to allow you to view and manage your saved media directly in the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.curvsort.ClassifyCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
